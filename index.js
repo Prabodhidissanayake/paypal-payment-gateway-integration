@@ -39,7 +39,7 @@ app.post("/pay", (req, res) => {
           ],
         },
         amount: {
-          currency: "USD",
+          currency: "USD", 
           total: "25.00",
         },
         description: "Hat for the best team ever",
